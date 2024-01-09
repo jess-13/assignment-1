@@ -1,4 +1,6 @@
-
+*{
+  margin: 10px;
+}
 .header,font{
   width: 1320px;
   height: 600px;
@@ -154,5 +156,68 @@ position: relative;
 color: #F00;
 }
 .option{
-display: block;
+display:flex;
 }
+.portfolio{
+ font-size: 48px;font-size: 48px;
+}
+form{text-align: center;
+  width: 1320px;
+height: 500px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.email{background-color: transparent;
+  width:500px;
+height:72px;
+  background-color:aliceblue;
+  border-radius: 50px 0px 0px 50px;
+  text-align: center;
+}
+.subs{background-color: transparent;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  width:200px;
+height:72px;
+text-align: center;
+cursor: pointer;
+color: #FFF;
+font-size: x-large;
+}
+.email-subs{
+  display:flex;
+ justify-content: center;
+  justify-content: center;
+  font-size: x-large;
+
+}
+.portfolio{
+  text-align: center;
+}
+footer{width: 1320px;
+  height: 609px;
+  background: #070211;
+}
+.first{ padding: 100px;
+  text-align:left;
+  color: #FFF;
+  font-size: larger;
+}
+.second{
+  text-align: center;
+}
+.details{
+ 
+}
+#contact{
+  display: flex; color: #FFF;
+  text-align: right;
+}
+ .fourth{ text-align:left;
+  color: #FFF;
+ }
+ #last{float: right;
+  color: #FFF;
+  font-size: 24px;
+  cursor: pointer;
+    background-color: #070211;}
